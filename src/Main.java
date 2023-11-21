@@ -2,16 +2,14 @@ public class Main {
     public static void main(String []args){
         System.out.println("\tBIENVENIDO");
 
-        Autos auto_uno;
+        Autos auto_uno,auto_dos;
         auto_uno = new Autos("Mateo");
+        auto_dos = new Autos("Emilio");
 
-        auto_uno.setColor("Azul");
-        auto_uno.setModelo("Ferrari");
-        auto_uno.setAno(5);
+        auto_dos.setColor("Negro");
+        auto_dos.setModelo("Nissan");
+        auto_dos.setAno(2);
 
-        System.out.println(auto_uno.getModelo());
-        System.out.println(auto_uno.getColor());
-        System.out.println(auto_uno.getAno());
-
+        System.out.println();
     }
 }
